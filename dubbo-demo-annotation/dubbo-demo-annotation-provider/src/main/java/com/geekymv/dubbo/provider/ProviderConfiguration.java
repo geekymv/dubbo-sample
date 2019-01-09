@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 服务提供方配置
+ * @DubboComponentScan 扫描Dubbo @Service组件，处理@Reference 注入
  */
 @Configuration
 @DubboComponentScan("com.geekymv.dubbo.provider")

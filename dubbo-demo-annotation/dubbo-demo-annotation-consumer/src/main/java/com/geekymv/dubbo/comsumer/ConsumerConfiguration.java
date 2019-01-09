@@ -34,6 +34,10 @@ public class ConsumerConfiguration {
         return registryConfig;
     }
 
+    /**
+     * 注册 DemoServiceConsumer 成为Spring bean，@DubboComponentScan 将处理其中 @Reference 字段
+     * @return
+     */
     @Bean
     public DemoServiceConsumer demoServiceConsumer() {
         return new DemoServiceConsumer();
