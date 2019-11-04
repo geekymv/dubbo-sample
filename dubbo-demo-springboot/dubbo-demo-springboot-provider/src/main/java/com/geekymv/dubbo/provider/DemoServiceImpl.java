@@ -1,4 +1,4 @@
-package com.geekymv.dubbo.dubbodemospringbootprovider.provider;
+package com.geekymv.dubbo.provider;
 
 import com.geekymv.dubbo.DemoService;
 import org.apache.dubbo.config.annotation.Method;
