@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dubbo-demo-springboot-consumer
+
+server:
+  port: 8088
+
+# Dubbo
+dubbo:
+  consumer:
+    check: false
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+
